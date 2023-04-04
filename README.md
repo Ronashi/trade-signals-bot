@@ -8,7 +8,8 @@ It has an __init__ method that initializes the bot's state (including the data s
 
 ### The execute_trade method buys or sells a symbol based on a signal, and updates the bot's portfolio accordingly.
 
-### The run method is the main loop of the bot. It first reads the latest trade signals and executes any trades based on them. It then iterates over each symbol in the bot's portfolio, gets the current price from the data source, and checks each of the bot's rules to see if it should buy or sell the
+### The run method is the main loop of the bot.
+It first reads the latest trade signals and executes any trades based on them. It then iterates over each symbol in the bot's portfolio, gets the current price from the data source, and checks each of the bot's rules to see if it should buy or sell the
 
 
 
